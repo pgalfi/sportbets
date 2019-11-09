@@ -1,0 +1,45 @@
+[
+  {
+    "model": "matchbets.sport",
+    "pk": 221,
+    "fields": {
+      "name": "Football"
+    }
+  },
+  {
+    "model": "matchbets.match",
+    "pk": 994839351740,
+    "fields": {
+      "name": "Real Madrid vs Barcelona",
+      "startTime": "2018-06-20T10:30:00",
+      "sport": 221
+    }
+  },
+  {
+    "model": "matchbets.matchmarket",
+    "pk": 385086549360973392,
+    "fields": {
+      "name": "Winner",
+      "match": 994839351740
+    }
+  },
+  {
+    "model": "matchbets.selection",
+    "pk": 8243901714083343527,
+    "fields": {
+      "name": "Real Madrid",
+      "odds": 1.01,
+      "market": 385086549360973392
+    }
+  },
+  {
+    "model": "matchbets.selection",
+    "pk": 5737666888266680774,
+    "fields": {
+      "name": "Barcelona",
+      "odds": 1.01,
+      "market": 385086549360973392
+    }
+  }
+
+]
